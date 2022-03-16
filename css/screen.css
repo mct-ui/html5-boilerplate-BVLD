@@ -3,4 +3,117 @@ html {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #111111;
+  padding: 24px 24px 0;
+}
+
+body {
+  max-width: 42em; /* Relatieve waarde die verwijst naar de base unit van html (16px) = 42 * 16 */
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: #44c8f5;
+}
+
+::selection {
+  color: white;
+  background-color: #44c8f5;
+}
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
+}
+
+h2 {
+  font-weight: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+  margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote {
+  padding-left: 24px;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: grey;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  border-color: lightgrey;
+  margin: 0 0 24px;
+}
+
+a {
+  color: royalblue;
+  transition: all 2s ease-in-out;
+}
+
+a:visited,
+a:active {
+  color: blueviolet;
+}
+
+a:hover,
+a:focus {
+  color: crimson;
 }
